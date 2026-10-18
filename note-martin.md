@@ -1,0 +1,3 @@
+# Consultation Queue
+
+Consultation Queue is a web-based application prototype that helps students submit academic concerns and track their consultation queue status. Teachers can manage requests, set priorities, schedule consultations, reply to students, and update concern statuses. The project uses React, Vite, JavaScript, CSS, and browser storage to demonstrate its core functionality. Currently, it is a frontend prototype without a centralized backend or database.

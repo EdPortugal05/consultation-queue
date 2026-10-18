@@ -1,12 +1,36 @@
-# Demo Guide
+Follow these 8 important steps:
 
-How to show the Consultation Queue app to a user.
+Step 1: Setup
+- Running npm install and then npm run dev is the correct order, and it's good that the guide says to open the local link.
+- Suggestion: add a note that Node.js must be installed first.
 
-1. Run `npm install`, then `npm run dev`, and open the local link.
-2. Open the same link in a second tab of the same browser.
-3. Tab 1, student: tap "I'm a student", enter a name, choose a subject, pick a concern type, write the concern, and tap "Join the queue". A queue number appears.
-4. Tab 2, teacher: tap "I'm a teacher", choose Jeremy Zion L. Jamer, and enter PIN 1234.
-5. The teacher opens the new concern, taps "Start consultation", and writes a private comment.
-6. Back in tab 1, the student opens the concern under "My concerns" and replies in the same private thread.
-7. The teacher can star a concern as priority, set a consultation slot, and tap "Mark resolved".
-8. To restart the demo, tap "Reset demo data" on the first page.
+Step 2: Second browser tab
+- Opening the same link in a second tab is clear.
+- Suggestion: explain why both tabs should be in the same browser (for example, if the data is stored locally), so nobody tries two different browsers.
+
+Step 3: Student joins the queue
+- This step lists every field in the order the user sees them: name, subject, concern type, concern text, then "Join the queue".
+- It also says what to expect at the end, which is a queue number.
+
+Step 4: Teacher login
+- The role, teacher name, and PIN (1234) are all given, so it's easy to log in without guessing.
+- Suggestion: mention that the PIN is for the demo only.
+
+Step 5: Teacher handles the concern
+- The sequence is clear: open the new concern, tap "Start consultation", then write a private comment.
+
+Step 6: Student replies
+- Switching back to tab 1 and opening the concern under "My concerns" shows how the private thread works from the student's side.
+
+Step 7: Teacher management features
+- This step covers the remaining features in one place: priority star, consultation slot, and "Mark resolved".
+
+Step 8: Restarting the demo
+- The "Reset demo data" instruction makes the demo repeatable.
+
+Summary
+- The steps are in a logical order, from setup to the full student-to-teacher flow.
+- Each step names the tab and the role, so it's hard to get lost.
+- The only suggestions are the optional notes under Steps 1, 2, and 4. None of them block the merge.
+
+Approving.
